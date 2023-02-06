@@ -5,6 +5,8 @@
 2. By default, sendmail is installed, it's not needed, deactive by adding the following line to /etc/rc.local:
     sendmail_enable="NONE"
 3. By default, again, FreeBSD has multiple virtual consoles enabled (https://www.freebsd.org/doc/handbook/consoles.html). Each takes about 10M memory and usually is just idle. Disable them by uncommenting all except for the first one in /etc/ttys
+4. Change shell login message by editing file /etc/motd.template
+   (https://man.freebsd.org/cgi/man.cgi?motd)
 
 By now, you should have a very slim and performant system with just ~500MB disk
 footprint and minimum memory usage of ~75MB.
