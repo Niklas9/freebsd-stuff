@@ -36,3 +36,7 @@ Reboot system if needed afterwards
 Run
 $ pkg update
 $ pkg upgrade
+
+## Logs
+Logs are located in /var/log directory.
+Sytem logs more specifically /var/log/messages.
